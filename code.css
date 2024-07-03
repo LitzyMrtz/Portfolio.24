@@ -1,0 +1,135 @@
+
+body{
+  background-color:white;
+}
+
+
+h2 {
+    text-align:center;
+
+}
+
+body {margin:0}
+
+body{
+  background-color: rgba(255, 255, 255, 0.783);
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color:#97bbd2;
+    overflow: auto;
+  
+  }
+  .icon-bar{
+    font-size: 50px;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #566974;
+  }
+  
+  .active {
+    background-color: #ffffff;
+  }
+  .icon-bar{
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+p{
+  font-size: 18px;
+  font-family: serif;
+}
+.first-row{
+  float:center;
+  display: flex;
+  justify-content: space-evenly;
+  position:center;
+}
+/*first flip boxes*/
+.flip-box1, .flip-box2,.flip-box3 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; 
+  float:left;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner1, .flip-box-inner2,.flip-box-inner3 {
+  position: relative;
+  width: 100%;
+  height: 200%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box1:hover .flip-box-inner1,.flip-box2:hover .flip-box-inner2,.flip-box3:hover .flip-box-inner3 {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front1, .flip-box-back1 , .flip-box-back2, .flip-box-front2, .flip-box-back3, .flip-box-front3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+  box-shadow: 3px 3px 30px#6197b7;
+}
+
+.flip-box-front1, .flip-box-front2, .flip-box-front3 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back1,.flip-box-back2, .flip-box-back3 {
+  background-color: rgb(166, 197, 228);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.space{
+  color:white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border:1px white
+}
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+.dino{
+  max-height:40%;
+}
+.Me{
+  font-family: 'Lucida handwriting';
+  font-size: 38px ;
+  text-align:center;
+}
+  

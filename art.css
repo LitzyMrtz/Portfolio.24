@@ -1,0 +1,111 @@
+body{
+  background-image: url("https://as1.ftcdn.net/v2/jpg/03/12/39/70/1000_F_312397087_uJNHNhuzTKlz3kcMNhDL4Lpq23MypEoZ.jpg");
+  background-color:beige;
+  
+}
+body{
+  background-color: rgba(255, 255, 255, 0.783);
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color:#97bbd2;
+    overflow: auto;
+  
+  }
+  .icon-bar{
+    font-size: 50px;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #566974;
+  }
+  
+  .active {
+    background-color: #ffffff;
+  }
+  .icon-bar{
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+
+/*Menu icon style*/
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+};
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.code{
+  display:flex;
+  height:35em;
+  gap: 3em;
+  flex-grow:2;
+  padding:0 10px;
+  text-align:center;
+}
+
+.code1, .code2, .code3, .code4, .code5{
+  max-width: 21em;
+  max-height: 30em;
+  background-color:rgb(172, 208, 227);
+  box-shadow: 3px 3px 30px rgb(0, 0, 0);
+  padding:10px 30px;
+  border-radius: 20px;
+}
+.code1{
+  margin-left: 20px;
+}
+
+.code3{
+  margin-right: 20px;
+}
+h1,p{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height:10%;
+}
+
+/*art*/
+.art{
+  text-align: center;
+  border: 1px white;
+  text-align: center;
+  max-width: 300px;
+}
+
